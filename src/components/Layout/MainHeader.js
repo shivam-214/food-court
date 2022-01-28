@@ -7,7 +7,7 @@ const MainHeader = (props) => {
   return (
     <>
       <header className={classes.header}>
-        <h1>FoodCourt</h1>
+        <h1>FoodKart</h1>
         <HeaderButton onClick={props.onShowCart} />
       </header>
       <section className={classes["main-image"]}>
